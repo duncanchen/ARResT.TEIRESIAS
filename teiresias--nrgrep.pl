@@ -1,7 +1,8 @@
 #!/usr/bin/perl -w
 
 no warnings 'threads';
-use threads;
+# use threads;
+use forks;
 
 $| = 1;
 
